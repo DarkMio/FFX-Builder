@@ -25,6 +25,8 @@ pre {
     fill: #D1D3D4;
     stroke: #000;
     stroke-miterlimit: 10;
+    transition: fill;
+    transition-duration: 0.25s;
 }
 circle.circle:hover {
     /* oddly enough, the DOM doesn't catch up when you're not using the svg element as prefix. */
